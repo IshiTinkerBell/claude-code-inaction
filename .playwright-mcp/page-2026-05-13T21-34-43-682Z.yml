@@ -1,0 +1,81 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e15]:
+          - generic [ref=e51]:
+            - generic [ref=e54]: Create a user profile card component with an avatar, name, bio, and social stats
+            - img [ref=e57]
+          - generic [ref=e73]:
+            - img [ref=e76]
+            - generic [ref=e81]:
+              - generic [ref=e84]: Created /App.jsx
+              - separator [ref=e85]
+              - generic [ref=e86]:
+                - paragraph [ref=e87]: "Done. Created a profile card with:"
+                - list [ref=e88]:
+                  - listitem [ref=e89]: Avatar with online status indicator
+                  - listitem [ref=e90]: Name and title
+                  - listitem [ref=e91]: Bio text
+                  - listitem [ref=e92]: Social stats (followers, following, posts)
+                  - listitem [ref=e93]: Follow/Message action buttons
+                  - listitem [ref=e94]: Social media icon links
+                - paragraph [ref=e95]: Uses warm amber/stone palette with intentional typography hierarchy and clean spacing.
+          - generic [ref=e481]:
+            - generic [ref=e484]: "Restyle the card with these specific changes — keep all data and logic unchanged, only change Tailwind classes: 1) Remove the color-band header and rounded card. Replace with a flat white card that has border-l-4 border-amber-400 and rounded-r-2xl (left accent border only). 2) Left-align all content — avatar (w-20 h-20 rounded-2xl) on the left, name stacked in two lines (text-4xl font-black tracking-tighter) beside it. 3) Left-align stats with text-stone-900 (not amber) numbers and tracking-widest uppercase labels in text-stone-400. 4) Replace buttons: amber pill Follow button (bg-amber-400 text-stone-900 rounded-full px-6) and underline-only Message (text-sm underline underline-offset-4 text-stone-500). 5) Social icons: remove circular backgrounds, just small icon links (text-stone-400 hover:text-amber-600). Background: plain bg-amber-50."
+            - img [ref=e487]
+          - generic [ref=e490]:
+            - img [ref=e493]
+            - generic [ref=e499]:
+              - img [ref=e500]
+              - generic [ref=e502]: Generating...
+        - generic [ref=e23]:
+          - textbox "Describe the React component you want to create..." [disabled] [ref=e24]
+          - button [disabled] [ref=e25]:
+            - img [ref=e26]
+    - separator [ref=e29]
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - tablist [ref=e34]:
+          - tab "Preview" [selected] [ref=e35]
+          - tab "Code" [ref=e36]
+        - generic [ref=e37]:
+          - button "Sign In" [ref=e38]
+          - button "Sign Up" [ref=e39]
+      - iframe [ref=e480]:
+        - generic [ref=f3e8]:
+          - img "Avatar" [ref=f3e11]
+          - generic [ref=f3e13]:
+            - heading "Alex Morgan" [level=2] [ref=f3e14]
+            - paragraph [ref=f3e15]: Product Designer
+          - paragraph [ref=f3e16]: Crafting digital experiences that feel natural and intuitive. Coffee enthusiast and design systems nerd.
+          - generic [ref=f3e17]:
+            - generic [ref=f3e18]:
+              - generic [ref=f3e19]: 2.4K
+              - generic [ref=f3e20]: Followers
+            - generic [ref=f3e21]:
+              - generic [ref=f3e22]: "847"
+              - generic [ref=f3e23]: Following
+            - generic [ref=f3e24]:
+              - generic [ref=f3e25]: "156"
+              - generic [ref=f3e26]: Posts
+          - generic [ref=f3e27]:
+            - link "Follow" [ref=f3e28] [cursor=pointer]:
+              - /url: "#"
+            - link "Message" [ref=f3e29] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=f3e30]:
+            - link [ref=f3e31] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=f3e32]
+            - link [ref=f3e34] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=f3e35]
+            - link [ref=f3e37] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=f3e38]
+  - alert [ref=e50]
+  - generic [ref=e478]:
+    - alert
+    - alert

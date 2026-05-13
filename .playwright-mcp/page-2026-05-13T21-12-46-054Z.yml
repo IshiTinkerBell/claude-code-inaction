@@ -1,0 +1,149 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e15]:
+          - generic [ref=e52]:
+            - generic [ref=e55]: Create a user profile card component with an avatar, name, bio, and social stats
+            - img [ref=e58]
+          - generic [ref=e61]:
+            - img [ref=e64]
+            - generic [ref=e69]:
+              - generic [ref=e72]: Created /App.jsx
+              - separator [ref=e73]
+              - generic [ref=e74]:
+                - paragraph [ref=e75]: "Done! I've created a user profile card component with:"
+                - list [ref=e76]:
+                  - listitem [ref=e77]:
+                    - strong [ref=e78]: Avatar
+                    - text: ": Circular image with border and shadow"
+                  - listitem [ref=e79]:
+                    - strong [ref=e80]: Name & Bio
+                    - text: ": Centered text section"
+                  - listitem [ref=e86]:
+                    - strong [ref=e87]: Social Stats
+                    - text: ": Three-column layout showing followers, following, and posts"
+                  - listitem [ref=e88]:
+                    - strong [ref=e89]: Action Buttons
+                    - text: ": Follow and Message buttons"
+                  - listitem [ref=e90]:
+                    - strong [ref=e91]: Styling
+                    - text: ": Gradient header, clean card design with Tailwind CSS"
+                - paragraph [ref=e92]: The component is fully responsive and includes hover effects on the buttons.
+        - generic [ref=e23]:
+          - textbox "Describe the React component you want to create..." [ref=e24]
+          - button [disabled] [ref=e25]:
+            - img [ref=e26]
+    - separator [ref=e29]
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - tablist [ref=e34]:
+          - tab "Preview" [ref=e35]
+          - tab "Code" [active] [selected] [ref=e36]
+        - generic [ref=e37]:
+          - button "Sign In" [ref=e38]
+          - button "Sign Up" [ref=e39]
+      - generic [ref=e93]:
+        - generic [ref=e101] [cursor=pointer]:
+          - img [ref=e102]
+          - generic [ref=e107]: App.jsx
+        - separator [ref=e108]
+        - code [ref=e113]:
+          - generic [ref=e114]:
+            - generic [ref=e116]:
+              - generic [ref=e119]: "1"
+              - generic [ref=e121]: "2"
+              - generic [ref=e122]:
+                - generic [ref=e123] [cursor=pointer]: 
+                - generic [ref=e124]: "3"
+              - generic [ref=e125]:
+                - generic [ref=e126] [cursor=pointer]: 
+                - generic [ref=e127]: "4"
+              - generic [ref=e128]:
+                - generic [ref=e129] [cursor=pointer]: 
+                - generic [ref=e130]: "5"
+              - generic [ref=e133]:
+                - generic [ref=e134] [cursor=pointer]: 
+                - generic [ref=e135]: "6"
+              - generic [ref=e138]: "7"
+              - generic [ref=e140]: "8"
+              - generic [ref=e143]: "9"
+              - generic [ref=e145]: "10"
+              - generic [ref=e146]:
+                - generic [ref=e147] [cursor=pointer]: 
+                - generic [ref=e148]: "11"
+              - generic [ref=e150]: "12"
+              - generic [ref=e151]:
+                - generic [ref=e152] [cursor=pointer]: 
+                - generic [ref=e153]: "13"
+              - generic [ref=e155]:
+                - generic [ref=e156] [cursor=pointer]: 
+                - generic [ref=e157]: "14"
+              - generic [ref=e159]: "15"
+              - generic [ref=e163]: "16"
+              - generic [ref=e165]: "17"
+              - generic [ref=e169]: "18"
+              - generic [ref=e171]: "19"
+              - generic [ref=e173]: "20"
+              - generic [ref=e175]: "21"
+              - generic [ref=e176]:
+                - generic [ref=e177] [cursor=pointer]: 
+                - generic [ref=e178]: "22"
+              - generic [ref=e180]: "23"
+              - generic [ref=e182]:
+                - generic [ref=e183] [cursor=pointer]: 
+                - generic [ref=e184]: "24"
+              - generic [ref=e187]: "25"
+              - generic [ref=e191]: "26"
+              - generic [ref=e193]: "27"
+              - generic [ref=e195]: "28"
+              - generic [ref=e197]: "29"
+            - generic [ref=e441]:
+              - generic [ref=e443]: import React from 'react';
+              - generic [ref=e446]: "export default function App() {"
+              - generic [ref=e448]: return (
+              - generic [ref=e450]: <div className="min-h-screen
+              - generic [ref=e452]: bg-gradient-to-br from-slate-900 to-slate-800
+              - generic [ref=e454]: flex items-center justify-center p-4">
+              - generic [ref=e456]: <div className="w-full max-w-sm bg-white
+              - generic [ref=e458]: rounded-2xl shadow-2xl overflow-hidden">
+              - generic [ref=e460]: "{/* Header Background */}"
+              - generic [ref=e462]: <div className="h-32 bg-gradient-to-r
+              - generic [ref=e464]: from-blue-500 to-purple-600"></div>
+              - generic [ref=e467]: "{/* Profile Content */}"
+              - generic [ref=e469]: <div className="px-6 pb-6">
+              - generic [ref=e471]: "{/* Avatar */}"
+              - generic [ref=e473]: <div className="flex justify-center
+              - generic [ref=e475]: "-mt-16 mb-4\">"
+              - generic [ref=e477]: <img
+              - generic [ref=e479]: src="https://images.unsplash.com/
+              - generic [ref=e481]: photo-1472099645785-5658abf4ff4e?
+              - generic [ref=e483]: w=400&h=400&fit=crop"
+              - generic [ref=e485]: alt="User Avatar"
+              - generic [ref=e487]: className="w-32 h-32 rounded-full
+              - generic [ref=e489]: border-4 border-white shadow-lg
+              - generic [ref=e491]: object-cover"
+              - generic [ref=e493]: />
+              - generic [ref=e495]: </div>
+              - generic [ref=e498]: "{/* Name and Bio */}"
+              - generic [ref=e500]: <div className="text-center mb-6">
+              - generic [ref=e502]: <h2 className="text-2xl font-bold
+              - generic [ref=e504]: text-gray-900 mb-2">Alex Johnson</h2>
+              - generic [ref=e506]: <p className="text-gray-600 text-sm
+              - generic [ref=e508]: leading-relaxed">
+              - generic [ref=e510]: Product designer & creative
+              - generic [ref=e512]: thinker. Coffee enthusiast ☕ |
+              - generic [ref=e514]: Always learning
+              - generic [ref=e516]: </p>
+              - generic [ref=e518]: </div>
+              - generic [ref=e521]: "{/* Social Stats */}"
+            - textbox "Editor content" [ref=e523]
+            - generic:
+              - generic:
+                - generic:
+                  - list
+  - alert [ref=e51]
+  - generic [ref=e524]:
+    - alert
+    - alert

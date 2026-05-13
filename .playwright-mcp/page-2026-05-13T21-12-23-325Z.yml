@@ -1,0 +1,66 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e15]:
+          - generic [ref=e52]:
+            - generic [ref=e55]: Create a user profile card component with an avatar, name, bio, and social stats
+            - img [ref=e58]
+          - generic [ref=e61]:
+            - img [ref=e64]
+            - generic [ref=e69]:
+              - generic [ref=e72]: Created /App.jsx
+              - separator [ref=e73]
+              - generic [ref=e74]:
+                - paragraph [ref=e75]: "Done! I've created a user profile card component with:"
+                - list [ref=e76]:
+                  - listitem [ref=e77]:
+                    - strong [ref=e78]: Avatar
+                    - text: ": Circular image with border and shadow"
+                  - listitem [ref=e79]:
+                    - strong [ref=e80]: Name & Bio
+                    - text: ": Centered text section"
+                  - listitem [ref=e86]:
+                    - strong [ref=e87]: Social Stats
+                    - text: ": Three-column layout showing followers, following, and posts"
+                  - listitem [ref=e88]:
+                    - strong [ref=e89]: Action Buttons
+                    - text: ": Follow and Message buttons"
+                  - listitem [ref=e90]:
+                    - strong [ref=e91]: Styling
+                    - text: ": Gradient header, clean card design with Tailwind CSS"
+                - paragraph [ref=e92]: The component is fully responsive and includes hover effects on the buttons.
+        - generic [ref=e23]:
+          - textbox "Describe the React component you want to create..." [ref=e24]
+          - button [disabled] [ref=e25]:
+            - img [ref=e26]
+    - separator [ref=e29]
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - tablist [ref=e34]:
+          - tab "Preview" [selected] [ref=e35]
+          - tab "Code" [ref=e36]
+        - generic [ref=e37]:
+          - button "Sign In" [ref=e38]
+          - button "Sign Up" [ref=e39]
+      - iframe [ref=e85]:
+        - generic [ref=f2e6]:
+          - img "User Avatar" [ref=f2e8]
+          - generic [ref=f2e9]:
+            - heading "Alex Johnson" [level=2] [ref=f2e10]
+            - paragraph [ref=f2e11]: Product designer & creative thinker. Coffee enthusiast ☕ | Always learning
+          - generic [ref=f2e12]:
+            - generic [ref=f2e13]:
+              - paragraph [ref=f2e14]: 2.4K
+              - paragraph [ref=f2e15]: Followers
+            - generic [ref=f2e16]:
+              - paragraph [ref=f2e17]: 1.8K
+              - paragraph [ref=f2e18]: Following
+            - generic [ref=f2e19]:
+              - paragraph [ref=f2e20]: "342"
+              - paragraph [ref=f2e21]: Posts
+          - generic [ref=f2e22]:
+            - button "Follow" [ref=f2e23] [cursor=pointer]
+            - button "Message" [ref=f2e24] [cursor=pointer]
+  - alert [ref=e51]
