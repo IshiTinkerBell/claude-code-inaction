@@ -1,3 +1,4 @@
+# Runs on every push to master and on all pull requests
 name: CI
 
 on:
