@@ -1,0 +1,372 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1778621477123,
+  "projectRoot": "C:\\Projects\\uigen",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "next",
+        "version": "15.3.3",
+        "category": "fullstack"
+      },
+      {
+        "name": "react",
+        "version": "19.0.0",
+        "category": "frontend"
+      },
+      {
+        "name": "react-dom",
+        "version": "19.0.0",
+        "category": "frontend"
+      },
+      {
+        "name": "vitest",
+        "version": "3.2.4",
+        "category": "testing"
+      }
+    ],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "npm run build",
+    "testCommand": "npm test",
+    "lintCommand": "npm run lint",
+    "devCommand": "npm run dev",
+    "scripts": {
+      "dev": "next dev --turbopack",
+      "dev:daemon": "next dev --turbopack > logs.txt 2>&1 & echo 'Server started, writing logs to logs.txt'",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint",
+      "test": "vitest",
+      "setup": "npm install && npx prisma generate && npx prisma migrate dev",
+      "db:reset": "npx prisma migrate reset --force"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": "type-based"
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "src"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "prisma": {
+      "path": "prisma",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1778621477064,
+      "keyFiles": [
+        "dev.db",
+        "schema.prisma"
+      ]
+    },
+    "src": {
+      "path": "src",
+      "purpose": "Source code",
+      "fileCount": 1,
+      "lastAccessed": 1778621477068,
+      "keyFiles": [
+        "middleware.ts"
+      ]
+    },
+    "prisma\\migrations": {
+      "path": "prisma\\migrations",
+      "purpose": "Database migrations",
+      "fileCount": 1,
+      "lastAccessed": 1778621477084,
+      "keyFiles": [
+        "migration_lock.toml"
+      ]
+    },
+    "src\\app": {
+      "path": "src\\app",
+      "purpose": "Application code",
+      "fileCount": 5,
+      "lastAccessed": 1778621477085,
+      "keyFiles": [
+        "favicon.ico",
+        "globals.css",
+        "layout.tsx"
+      ]
+    },
+    "src\\components": {
+      "path": "src\\components",
+      "purpose": "UI components",
+      "fileCount": 1,
+      "lastAccessed": 1778621477087,
+      "keyFiles": [
+        "HeaderActions.tsx"
+      ]
+    },
+    "src\\lib": {
+      "path": "src\\lib",
+      "purpose": "Library code",
+      "fileCount": 6,
+      "lastAccessed": 1778621477088,
+      "keyFiles": [
+        "anon-work-tracker.ts",
+        "auth.ts",
+        "file-system.ts"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "src\\components\\chat\\MessageList.tsx",
+      "accessCount": 6,
+      "lastAccessed": 1778704361403,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\chat\\__tests__\\MessageList.test.tsx",
+      "accessCount": 5,
+      "lastAccessed": 1778704412265,
+      "type": "file"
+    },
+    {
+      "path": "",
+      "accessCount": 5,
+      "lastAccessed": 1778704490082,
+      "type": "directory"
+    },
+    {
+      "path": "src\\components\\chat\\ChatInterface.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1778704165190,
+      "type": "file"
+    },
+    {
+      "path": "CLAUDE.md",
+      "accessCount": 3,
+      "lastAccessed": 1778622876181,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\page.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1778623722591,
+      "type": "file"
+    },
+    {
+      "path": "src",
+      "accessCount": 2,
+      "lastAccessed": 1778704169047,
+      "type": "directory"
+    },
+    {
+      "path": "src\\lib\\contexts\\chat-context.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1778704185990,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\api\\chat\\route.ts",
+      "accessCount": 2,
+      "lastAccessed": 1778704198004,
+      "type": "file"
+    },
+    {
+      "path": "src\\lib\\contexts\\file-system-context.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1778704199526,
+      "type": "file"
+    },
+    {
+      "path": "vitest.config.mts",
+      "accessCount": 2,
+      "lastAccessed": 1778704239806,
+      "type": "file"
+    },
+    {
+      "path": "README.md",
+      "accessCount": 1,
+      "lastAccessed": 1778621502856,
+      "type": "file"
+    },
+    {
+      "path": "package.json",
+      "accessCount": 1,
+      "lastAccessed": 1778621503420,
+      "type": "file"
+    },
+    {
+      "path": "prisma\\schema.prisma",
+      "accessCount": 1,
+      "lastAccessed": 1778621503737,
+      "type": "file"
+    },
+    {
+      "path": "src\\lib\\transform\\jsx-transformer.ts",
+      "accessCount": 1,
+      "lastAccessed": 1778621510652,
+      "type": "file"
+    },
+    {
+      "path": "src\\lib\\file-system.ts",
+      "accessCount": 1,
+      "lastAccessed": 1778621510715,
+      "type": "file"
+    },
+    {
+      "path": "src\\lib\\prompts\\generation.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778621510757,
+      "type": "file"
+    },
+    {
+      "path": "src\\lib\\auth.ts",
+      "accessCount": 1,
+      "lastAccessed": 1778621515945,
+      "type": "file"
+    },
+    {
+      "path": "src\\middleware.ts",
+      "accessCount": 1,
+      "lastAccessed": 1778621517175,
+      "type": "file"
+    },
+    {
+      "path": "src\\lib\\provider.ts",
+      "accessCount": 1,
+      "lastAccessed": 1778621521734,
+      "type": "file"
+    },
+    {
+      "path": "src\\lib\\anon-work-tracker.ts",
+      "accessCount": 1,
+      "lastAccessed": 1778621522146,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\auth\\AuthDialog.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778622651815,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\auth\\SignInForm.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778622652348,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\auth\\SignUpForm.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778622652601,
+      "type": "file"
+    },
+    {
+      "path": "src\\hooks\\use-auth.ts",
+      "accessCount": 1,
+      "lastAccessed": 1778622657439,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\main-content.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778623722976,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\HeaderActions.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778623727202,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\preview\\PreviewFrame.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778623727415,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\ui\\scroll-area.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778653588551,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\chat",
+      "accessCount": 1,
+      "lastAccessed": 1778704160391,
+      "type": "directory"
+    },
+    {
+      "path": "src\\components\\chat\\MarkdownRenderer.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778704165384,
+      "type": "file"
+    },
+    {
+      "path": "src\\lib\\tools\\str-replace.ts",
+      "accessCount": 1,
+      "lastAccessed": 1778704199452,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\chat\\__tests__\\ChatInterface.test.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778704232278,
+      "type": "file"
+    },
+    {
+      "path": "src\\lib\\__tests__\\file-system.test.ts",
+      "accessCount": 1,
+      "lastAccessed": 1778704232584,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\chat\\__tests__\\MarkdownRenderer.test.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778704236708,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\chat\\__tests__\\MessageInput.test.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778704237011,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\chat\\ToolCallBadge.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778704336573,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\chat\\__tests__\\ToolCallBadge.test.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778704391966,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

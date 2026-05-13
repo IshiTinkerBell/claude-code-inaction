@@ -1,0 +1,7 @@
+{
+  "tool_name": "PowerShell",
+  "tool_input_preview": "{\"command\":\"git status; git diff --stat\",\"description\":\"Check working tree status and diff\"}",
+  "error": "Exit code 129\nfatal: not a git repository (or any of the parent directories): .git\nwarning: Not a git repository. Use --no-index to compare two paths outside a working tree\nusage: git diff --no-index [<options>] <path> <path> [<pathspec>...]\n\nDiff output format options\n    -p, --patch           generate patch\n    -s, --no-patch        suppress diff output\n    -u                    generate patch\n    -U, --unified[=<n>]   generate diffs with <n> lines context\n    -W, --[no-]function-context\n     ...",
+  "timestamp": "2026-05-13T20:40:31.775Z",
+  "retry_count": 1
+}
